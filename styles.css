@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body{
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    margin-left: 20rem;
+
+}
+
+.header, .footer{
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+    color: #F9FaF8;
+    padding: 12px;
+}
+
+.top{
+    display: flex;
+    /*border-style: dotted;*/
+    color: #E5E7EB;
+    margin: 0 10%;
+}
+
+.top> img{
+    width: 80px;
+    border-radius: 15px;
+}
+
+.promotional-section{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin: 0 10%;
+    margin-bottom: 10%;
+}
+
+
+.promotional-img> img{
+    width: 220px;
+}
+
+.promo> h3{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.promo> p{
+    font-size: 14px;
+}
+
+.promo> button{
+    background-color: #3882f6;
+    color:#F9FaF8;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 700;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content> h2{
+    color: #1f2937;
+    font-size: 36px;
+}
+.products{
+    display: flex;
+    align-items: flex-end;
+    gap: 35px;
+    margin: 0 24px;
+    justify-content: center;
+}
+
+.Product> img{
+    width:100px;
+    border-radius: 10px;
+}
+
+.Product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pun{
+    display: flex;
+    background-color: lightgray;
+    padding: 50px 150px;
+    flex-direction: column;
+}
+
+.author{
+    font-weight: 700;
+    align-self: flex-end;
+    color: #1f2937;
+}
+
+.banner-contianer{
+    padding: 40px 80px;
+}
+
+.banner{
+    display: flex;
+    padding: 30px 70px;
+    background-color: #3882f6;
+    color: #F9FaF8;
+    border-radius: 7px
+    
+}
+
+.banner-button{
+    font-size: 10px;
+    color: #F9FaF8;
+    background-color: #3882f6;
+    padding: 5px 12px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: auto;
+
+}
+
+.footer{
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+
+}
